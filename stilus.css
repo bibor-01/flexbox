@@ -24,6 +24,6 @@ header,nav,footer{
     
 }
 article{
-    width: 33.33333%;
+    flex:1 0 calc(33.33333% - 10px);
 }
 
