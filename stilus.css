@@ -18,12 +18,22 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    align-content: stretch;
 }
 header,nav,footer{
     flex:0 0 100%;
     
 }
 article{
-    flex:1 0 calc(33.33333% - 10px);
+    flex:0 0 calc(33.33333% - 10px);
 }
-
+main article:nth-child(5){
+    color:red;
+    order: -1;
+    
+}
+header,nav{
+    order: -10;
+}
