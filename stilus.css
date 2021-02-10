@@ -37,3 +37,11 @@ main article:nth-child(5){
 header,nav{
     order: -10;
 }
+nav,nav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav li{
+    padding: 5px;
+}
