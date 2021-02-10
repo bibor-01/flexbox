@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {background: gray;}
+
+main {background: lightblue;}
+
+main, header, nav, footer, article {
+    border: 1px solid gray;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header, nav, footer, article{
+    background: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+header,nav,footer{
+    flex:0 0 100%;
+    
+}
+article{
+    width: 33.33333%;
+}
+
